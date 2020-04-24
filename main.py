@@ -11,6 +11,9 @@
 from email_receiver import getEmail
 from email_sender import postEmail
 
+def emoji():
+    print(":-D")
+
 def main():
     print("1 - Inbox")
     print("2 - New")
@@ -23,3 +26,4 @@ def main():
         print("Yanlış tercih")
 
 main()
+emoji()
