@@ -1,4 +1,4 @@
 def postEmail():
     #...
     
-    print("ümail send...")
+    print("Email send...")
