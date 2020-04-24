@@ -1,15 +1,15 @@
-#from email_receiver import getEmail
-#from email_sender import postEmail
-
-def getEmail():
+#def getEmail():
     #...
     
-    print("Email received...")
+#    print("Email received...")
 
-def postEmail():
+#def postEmail():
     #...
     
-    print("Email send...")
+#    print("Email send...")
+
+from email_receiver import getEmail
+from email_sender import postEmail
 
 def main():
     print("1 - Inbox")
@@ -21,3 +21,5 @@ def main():
         postEmail()
     else:
         print("Yanlış tercih")
+
+main()
