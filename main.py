@@ -12,7 +12,7 @@ def postEmail():
     print("Email send...")
 
 def main():
-    print("1 - Inbox")
+    print("1 - ünbox")
     print("2 - New")
     q = input("Seçim = ")
     if q ==1:
